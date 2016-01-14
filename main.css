@@ -72,25 +72,16 @@ nav{
 }
 
 
-/*bronicoon*/
-.source_hover{ 
-	color: #3021ff;
-	display:inline;
-	cursor:pointer;
-	position:relative;
-	z-index:2;
-}
 
-/*blokje bron*/
-.source_hover:hover:after{ 
+
+.mainsources{ 
 	font-size:8px;
 	padding:10px;
-	background:#3021ff;
+	background:#fff;
 	color:black;
 	position:absolute;
 	top:15px;
 	left:15px;
 	min-width:500px;
-	content: attr(data-bron); /*tekst in html!!!*/
 
 }
