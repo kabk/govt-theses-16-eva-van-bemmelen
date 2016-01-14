@@ -70,3 +70,27 @@ nav{
 	font-weight: 400;
     
 }
+
+
+/*bronicoon*/
+.source_hover{ 
+	color: #3021ff;
+	display:inline;
+	cursor:pointer;
+	position:relative;
+	z-index:2;
+}
+
+/*blokje bron*/
+.source_hover:hover:after{ 
+	font-size:8px;
+	padding:10px;
+	background:#3021ff;
+	color:black;
+	position:absolute;
+	top:15px;
+	left:15px;
+	min-width:500px;
+	content: attr(data-bron); /*tekst in html!!!*/
+
+}
