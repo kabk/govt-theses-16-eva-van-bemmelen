@@ -2,13 +2,14 @@
 
 
 body {
-	width:700px;
-	margin:60px 60px;
+	max-width:650px;
+	margin-top:60px; 
+	margin-left:80px;
 	padding:0px;
 	text-align:left;
 	font-family: georgia;
 	font-size:16px;
-	line-height:16px;
+	line-height:19px;
 	letter-spacing:1px;
 	text-decoration: none;
 
@@ -17,19 +18,18 @@ body {
 body {
 	background-color: #FFF;
 }
+
 A:link {
 	color: #000000;
 	text-decoration: none;
 }
 
-}
 A:active {
 	color: #000000;
 	text-decoration: none;
 }
 
-A:visited { color: #3021ff;
-	
+A:visited { color: #3021ff;	
 }
 
 
@@ -49,7 +49,7 @@ A:visited { color: #3021ff;
 #about {
 	width: 450px;
     right: -150px;
-    margin-top: -30px;
+    margin-top: -20px;
     text-align: left;
     position: fixed;
 }
@@ -72,16 +72,48 @@ nav{
 }
 
 
+a.footnote {
+	outline:none; 
+	}
+	
+a.footnote strong {	
+	line-height:-50px;
+	}
+	
+a.footnote:hover {
+	text-decoration:none;
+	}
+	 
+a.footnote span {
+	font-size:12px;
+	line-height:15px;
+    z-index:8;
+    display:none; 
+    padding:10px 15px;
+    margin-top:-30px; 
+    margin-left:28px;
+    width:450px;     
+	}
 
-
-.mainsources{ 
-	font-size:8px;
-	padding:10px;
-	background:#fff;
-	color:black;
+a.footnote:hover span{
+    display:inline; 
+    position:absolute; 
+    color:#FFF;
+    border:1px solid #DCA; 
+    background:#3021ff;}
+    
+.callout {
+	z-index:10;
 	position:absolute;
-	top:15px;
-	left:15px;
-	min-width:500px;
+	top:10px;
+	border:0;
+	left:-12px;
+	}
 
+sup{
+	line-height: 10px;
+	color:#3021ff; 
 }
+
+
+
