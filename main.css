@@ -7,12 +7,7 @@ body {
 	margin-left:80px;
 	padding:0px;
 	text-align:left;
-	font-family: georgia;
-	font-size:16px;
-	line-height:19px;
-	letter-spacing:1px;
-	text-decoration: none;
-
+	font-family: Georgia, serif;
 }
 
 body {
@@ -25,51 +20,82 @@ A:link {
 }
 
 A:active {
-	color: #000000;
+	color: #3021ff;
 	text-decoration: none;
 }
 
-A:visited { color: #3021ff;	
+A:visited { color: #000000;	
 }
 
-
-.style {
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #000;
-	text-decoration: none;
-	background-color: #FFF;
-	letter-spacing: 20pt;
-	text-align: left;
-	height: auto;
-	width: auto;
-}
 
 #about {
 	width: 450px;
-    right: -150px;
+    right: -130px;
     margin-top: -20px;
     text-align: left;
     position: fixed;
-}
-
-ul{
-    list-style-type: none;
+    font-family: 'courier new';
+    font-size: 12px;
+    line-height: 13px;
 }
 
 nav{
-	width: 650px;
+	width: 260px;
 	position: fixed;
-	font-family: 'georgia', sans-serif;
+	font-family: 'courier new';
 	margin-top: -10px;
 	margin-left: -40px;
 	font-size: 12px;
 	text-align: left;
     line-height: 13px;
 	font-weight: 400;
-    
+	color: #3021ff;
 }
+
+.vraag{
+	font-size:24px;
+	line-height:26px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+	background-color: #FFF;
+	margin-bottom: -14px;
+	margin-top: 10px;
+	cursor: help; /* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+}
+
+
+.antwoord{
+	display: none;
+	font-size:18px;
+	line-height:20px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+	background-color: #FFF;
+}
+
+.antwoord2{
+	font-size:18px;
+	line-height:20px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+	background-color: #FFF;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
 
 
 a.footnote {
