@@ -39,6 +39,12 @@ A:visited { color: #000000;
     line-height: 13px;
 }
 
+@media print {
+	#about {
+		display: none;
+	}
+}
+
 nav{
 	width: 260px;
 	position: fixed;
