@@ -81,6 +81,10 @@ nav{
 	color: #000;
 	background-color: #FFF;
 	max-width: 650px;
+	margin-left: 5px;
+	margin-top: 27px;
+	text-indent: 3em;
+	font-variant-ligatures: normal;
 }
 
 .antwoord2{
@@ -93,6 +97,9 @@ nav{
 	color: #000;
 	background-color: #FFF;
 	max-width: 650px;
+	margin-left: 5px;
+	margin-bottom: 25px;
+	text-indent: 3em;
 }
 
 
@@ -102,49 +109,28 @@ ul{
 
 
 
-
-a.footnote {
-	outline:none; 
-	}
-	
-a.footnote strong {	
-	line-height:-50px;
-	}
-	
-a.footnote:hover {
-	text-decoration:none;
-	}
-	 
-a.footnote span {
-	font-size:12px;
-	line-height:15px;
-    z-index:8;
-    display:none; 
-    padding:10px 15px;
-    margin-top:-30px; 
-    margin-left:28px;
-    width:450px;     
-	}
-
-a.footnote:hover span{
-    display:inline; 
-    position:absolute; 
-    color:#FFF;
-    border:1px solid #DCA; 
-    background:#3021ff;}
-    
-.callout {
-	z-index:10;
-	position:absolute;
-	top:10px;
-	border:0;
-	left:-12px;
-	}
-
-sup{
+p1 {
+	margin-top: -5px;
+    text-align: left;
+    font-family: 'courier new';
+    font-weight: normal;
+    font-size: 12px;
 	line-height: 10px;
-	color:#3021ff; 
+	color:#ff0000; 
+	}
+
+sup {
+    margin-top: -5px;
+    text-align: left;
+    font-family: 'courier new';
+    font-weight: normal;
+    font-size: 12px;
+	line-height: 10px;
+	color:#ff0000; 
 }
+	
+
+
 
 
 
