@@ -68,7 +68,7 @@ ul{
 	text-align: left;
 	width: 250px;
 	font-size: 28px;
-	color: #0052ff;
+	color: #0500ff;
 	line-height: 32pt;
 	letter-spacing: 0.04em;
 
@@ -152,7 +152,7 @@ p1 {
     font-weight: normal;
     font-size: 12px;
 	line-height: 10px;
-	color:#ff0000; 
+	color:#0500ff; 
 	}
 
 sup {
@@ -162,7 +162,7 @@ sup {
     font-weight: normal;
     font-size: 12px;
 	line-height: 10px;
-	color:#ff0000; 
+	color:#0500ff; 
 }
 	
 .bronnen{
@@ -172,7 +172,7 @@ sup {
     font-weight: normal;
     font-size: 12px;
 	line-height: 10px;
-	color:#ff0000; 
+	color:#0500ff; 
 	max-width: 500px;
 	
 }
