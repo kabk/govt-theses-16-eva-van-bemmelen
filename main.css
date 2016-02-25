@@ -5,9 +5,11 @@ body {
 	margin-top: 40px; 
 	margin-left: 40px;
 	margin-bottom: 60px;
+	background-color: #fafafa;
 	padding:0px;
 	text-align:left;
 	font-family: Georgia, serif;
+	color:#0500ff;
 }
 
 A:link {
@@ -28,13 +30,13 @@ A:visited { color: #000000;
 	font-family: 'courier new';
 	font-size: 14px;
 	line-height: 15px;
-	padding-bottom: 0px;
+	padding-bottom: 15px;
 }
 
 #about {
 	width: 400px;
     right: -150px;
-    margin-top: -42px;
+    margin-top: -55px;
     text-align: left;
     position: fixed;
     font-family: 'courier new';
@@ -42,23 +44,38 @@ A:visited { color: #000000;
     line-height: 15px;
 }
 
-ul{
-    list-style-type: none;
-}
 
 .nav{
 	position: fixed;
-	font-family: 'courier new';
+	font-family: courier new;
+	text-color: white;
 	margin-top: -10px;
 	margin-left: -40px;
 	text-align: left;
 	font-size: 14px;
     line-height: 15px;
     overflow: scroll;
+	overflow-y: scroll !important;
+    width: 1em;
+    outline: 1px;
     width:250px;
     height:400px;
-
+	
 }
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 2px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background-color: #0500ff;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+
+
 
 #footer{	
 	font-family: Georgia, serif;
@@ -67,7 +84,7 @@ ul{
 	right: 5px;
 	text-align: left;
 	width: 250px;
-	font-size: 28px;
+	font-size: 60px;
 	color: #0500ff;
 	line-height: 32pt;
 	letter-spacing: 0.04em;
@@ -91,7 +108,6 @@ ul{
 
 #content{
 	max-width:800px;
-	background-color: #ffffff;
 }
 
 .vraag{
@@ -102,7 +118,6 @@ ul{
 	font-weight: normal;
 	text-transform: none;
 	color: #000;
-	background-color: #ffffff;
 	margin-bottom: -14px;
 	margin-top: 10px;
 	cursor: help; /* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
@@ -118,7 +133,6 @@ ul{
 	font-weight: normal;
 	text-transform: none;
 	color: #000;
-	background-color: #FFF;
 	max-width: 650px;
 	margin-left: 5px;
 	margin-top: 27px;
@@ -134,7 +148,6 @@ ul{
 	font-weight: normal;
 	text-transform: none;
 	color: #000;
-	background-color: #ffffff;
 	max-width: 650px;
 	margin-left: 5px;
 	margin-bottom: 25px;
@@ -142,23 +155,21 @@ ul{
 }
 
 
-
-
-
-
-p1 {
+.footnote {
+	text-indent: 0em;
     text-align: left;
     font-family: 'courier new';
     font-weight: normal;
     font-size: 12px;
-	line-height: 10px;
+	line-height: 12px;
 	color:#0500ff; 
+	max-width: 450px;
 	}
 
 sup {
     margin-top: -5px;
     text-align: left;
-    font-family: 'courier new';
+    font-family: 'georgia';
     font-weight: normal;
     font-size: 12px;
 	line-height: 10px;
@@ -171,7 +182,7 @@ sup {
     font-family: 'courier new';
     font-weight: normal;
     font-size: 12px;
-	line-height: 10px;
+	line-height: 12px;
 	color:#0500ff; 
 	max-width: 500px;
 	
