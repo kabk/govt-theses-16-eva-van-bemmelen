@@ -2,27 +2,38 @@
 
 
 body {	
-	margin-top: 40px; 
-	margin-left: 40px;
+	margin-top: 30px; 
+	margin-left: 50px;
 	margin-bottom: 60px;
 	background-color: #fafafa;
 	padding:0px;
 	text-align:left;
+	text-rendering: optimizeLegibility;
 	font-family: Georgia, serif;
-	color:#0500ff;
+	color: #0500ff;
+	cursor: help;
 }
 
-A:link {
-	color: #000000;
-	text-decoration: none;
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
 }
 
-A:active {
-	color: #3021ff;
-	text-decoration: none;
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
 }
 
-A:visited { color: #000000;	
+/* mouse over link */
+a:hover {
+    color: #0500ff;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
 }
 
 #menu{
@@ -42,6 +53,7 @@ A:visited { color: #000000;
     font-family: 'courier new';
     font-size: 14px;
     line-height: 15px;
+    color: #3021ff;
 }
 
 
@@ -60,7 +72,7 @@ A:visited { color: #000000;
     outline: 1px;
     width:250px;
     height:400px;
-	
+	cursor: help;
 }
 
 ::-webkit-scrollbar {
@@ -72,10 +84,6 @@ A:visited { color: #000000;
     background-color: #0500ff;
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
-
-
-
-
 
 #footer{	
 	font-family: Georgia, serif;
@@ -120,7 +128,9 @@ A:visited { color: #000000;
 	color: #000;
 	margin-bottom: -14px;
 	margin-top: 10px;
-	cursor: help; /* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0pt;
+/*	cursor: help; /* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 }
 
 
@@ -132,12 +142,14 @@ A:visited { color: #000000;
 	font-style: normal;
 	font-weight: normal;
 	text-transform: none;
+	letter-spacing: 0pt;
 	color: #000;
 	max-width: 650px;
 	margin-left: 5px;
 	margin-top: 27px;
 	text-indent: 3em;
 	font-variant-ligatures: normal;
+	text-rendering: optimizeLegibility;
 }
 
 .antwoord2{
@@ -147,11 +159,36 @@ A:visited { color: #000000;
 	font-style: normal;
 	font-weight: normal;
 	text-transform: none;
+	letter-spacing: 0pt;
 	color: #000;
 	max-width: 650px;
 	margin-left: 5px;
 	margin-bottom: 25px;
 	text-indent: 3em;
+	text-rendering: optimizeLegibility;
+}
+
+.kolom{
+	-webkit-columns: 2 150px;
+	-moz-columns: 2 150px;
+	columns: 2 150px;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em;
+	position: relative;
+	float: left;	
+	font-size:18px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0pt;
+	color: #000;
+	max-width: 650px;
+	margin-left: 5px;
+	margin-bottom: 25px;
+	text-indent: 3em;
+	text-rendering: optimizeLegibility;
 }
 
 
@@ -236,7 +273,7 @@ sup {
 	text-indent: 3em;
 	}
 	
-	p1 {
+	/*p1 {
 	margin-top: -5px;
     text-align: left;
     font-family: 'courier new';
@@ -245,7 +282,7 @@ sup {
 	line-height: 10px;
 	color:#ff0000; 
 	max-width: 400px;
-	}
+	}*/
 	
 	sup {
 	margin-top: -5px;
