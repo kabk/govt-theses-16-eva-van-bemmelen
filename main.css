@@ -4,7 +4,7 @@
 body {	
 	margin-top: 30px; 
 	margin-left: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 600px;
 	background-color: #fafafa;
 	padding:0px;
 	text-align:left;
@@ -16,14 +16,14 @@ body {
 
 /* unvisited link */
 a:link {
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 /* visited link */
 a:visited {
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 /* mouse over link */
@@ -33,7 +33,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: yellow;
+    text-decoration: none;
 }
 
 #menu{
@@ -64,8 +64,7 @@ a:active {
 	margin-top: -10px;
 	margin-left: -40px;
 	text-align: left;
-	font-size: 14px;
-    line-height: 15px;
+	font-size: 11px;
     overflow: scroll;
 	overflow-y: scroll !important;
     width: 1em;
@@ -85,18 +84,21 @@ a:active {
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-#footer{	
-	font-family: Georgia, serif;
-	position: fixed;
-	bottom: 30px;
-	right: 5px;
-	text-align: left;
-	width: 250px;
-	font-size: 60px;
-	color: #0500ff;
-	line-height: 32pt;
-	letter-spacing: 0.04em;
 
+#footer{
+	font-family: georgia;
+	color: black;
+	position: fixed;
+	bottom: 40px;
+	right: 200px;
+	text-align: left;
+	width: 60px;
+	line-height: -40pt;
+}
+
+.main {
+    font-size: 80px;
+    color: #0500ff;
 }
 
 
@@ -147,10 +149,12 @@ a:active {
 	max-width: 650px;
 	margin-left: 5px;
 	margin-top: 27px;
+	margin-bottom: 20px;
 	text-indent: 3em;
 	font-variant-ligatures: normal;
 	text-rendering: optimizeLegibility;
 }
+
 
 .antwoord2{
 	font-size:18px;
@@ -163,21 +167,23 @@ a:active {
 	color: #000;
 	max-width: 650px;
 	margin-left: 5px;
-	margin-bottom: 25px;
+	margin-top: 20px;
+	margin-bottom: 27px;
 	text-indent: 3em;
+	font-variant-ligatures: normal;
 	text-rendering: optimizeLegibility;
 }
 
-.kolom{
+
+.antwoord3{
 	-webkit-columns: 2 150px;
 	-moz-columns: 2 150px;
 	columns: 2 150px;
-	-webkit-column-gap: 2em;
-	-moz-column-gap: 2em;
-	column-gap: 2em;
-	position: relative;
-	float: left;	
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
 	font-size:18px;
+	line-height:20px;
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
@@ -186,8 +192,10 @@ a:active {
 	color: #000;
 	max-width: 650px;
 	margin-left: 5px;
-	margin-bottom: 25px;
+	margin-top: 20px;
+	margin-bottom: 27px;
 	text-indent: 3em;
+	font-variant-ligatures: normal;
 	text-rendering: optimizeLegibility;
 }
 
@@ -201,6 +209,8 @@ a:active {
 	line-height: 12px;
 	color:#0500ff; 
 	max-width: 450px;
+	margin-top: -10px;
+	margin-bottom: 27px;
 	}
 
 sup {
