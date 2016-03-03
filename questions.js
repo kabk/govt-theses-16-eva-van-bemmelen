@@ -5,7 +5,7 @@ $('body').find('.vraag').click(function(){
 
   //Hide the other panels
   $(".antwoord").not($(this).next()).slideUp('fast');
-
+ 
 });
 
 $(document).ready(function(){
