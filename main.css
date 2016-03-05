@@ -178,7 +178,7 @@ a:active {
 .nav{
 	position: fixed;
 	font-family: courier new;
-	text-color: white;
+	color: black;
 	margin-top: -10px;
 	margin-left: -40px;
 	text-align: left;
@@ -215,7 +215,7 @@ a:active {
 }
 
 #footer > a:before {
-	content: "?"
+	content: "A"
 }
 
 #footer.main > a {
@@ -224,22 +224,7 @@ a:active {
 }
 
 #footer.main > a:before {
-	content: "A"
-}
-
-
-.index-print{
-	display: none;
-	font-size:28px;
-	line-height:30px;
-	text-decoration: none;
-	font-weight: normal;
-	text-transform: none;
-	color: #000;
-	background-color: #ffffff;
-	margin-bottom: -14px;
-	margin-top: 10px;
-	
+	content: "?"
 }
 
 #content{
@@ -253,7 +238,6 @@ a:active {
 	float: right;
 	margin: 2px;
 } 
-
 
 .vraag{
 	font-size:28px;
@@ -269,7 +253,6 @@ a:active {
 	letter-spacing: 0pt;
 /*	cursor: help; /* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 }
-
 
 .antwoord{
 	display: none;
@@ -290,9 +273,6 @@ a:active {
 	text-rendering: optimizeLegibility;
 }
 
-
-
-
 .antwoord2{
 	font-size:18px;
 	line-height:20px;
@@ -310,7 +290,6 @@ a:active {
 	font-variant-ligatures: normal;
 	text-rendering: optimizeLegibility;
 }
-
 
 .antwoord3{
 	-webkit-columns: 2 150px;
@@ -336,7 +315,6 @@ a:active {
 	text-rendering: optimizeLegibility;
 }
 
-
 .footnote {
 	text-indent: 0em;
     text-align: left;
@@ -361,7 +339,7 @@ sup {
 }
 	
 .bronnen{
-	margin-top: -5px;
+	margin-top: 20px;
     text-align: left;
     font-family: 'courier new';
     font-weight: normal;
@@ -369,7 +347,22 @@ sup {
 	line-height: 12px;
 	color:#0500ff; 
 	max-width: 500px;
-	
+}
+
+
+.index-print{
+	display: none;
+	font-size:36px;
+	line-height:38px;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+	background-color: #ffffff;
+	margin-bottom: 400px;
+	margin-top: -10px;
+	width: 1200px;	
+	margin-left: -320px;
 }
 
 
@@ -377,10 +370,9 @@ sup {
 	.index-print{
 		display: inherit;	
 	}
-
-	body{
-	margin-left: 250px;
-	max-width: 450px;	
+	
+	ul{
+    list-style-type: none;
 	}
 	
 	#about {
@@ -388,51 +380,23 @@ sup {
 	
 	.nav {
 		display: none;	}
+	
+	#footer {
+		display: none;
+	}
 		
 	.antwoord {
 		display: none;
 	}
 	
-	.vraag {
-	font-size:16px;
-	line-height:18px;
-	text-decoration: none;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #000;
-	background-color: #ffffff;
-	margin-bottom: -14px;
-	margin-top: 10px;
-	max-width: 600px;
+	body{
+	margin-left: 300px;
+	width: 1200px;
 	}
 	
-	.antwoord2{
-	font-size:10px;
-	line-height:12px;
-	text-decoration: none;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #000;
-	background-color: #ffffff;
-	max-width: 500px;
-	margin-top: 20px;
-	margin-left: 5px;
-	margin-bottom: 25px;
-	text-indent: 3em;
+	.vraag{
+	display: none;
 	}
-	
-	/*p1 {
-	margin-top: -5px;
-    text-align: left;
-    font-family: 'courier new';
-    font-weight: normal;
-    font-size: 8px;
-	line-height: 10px;
-	color:#ff0000; 
-	max-width: 400px;
-	}*/
 	
 	sup {
 	margin-top: -5px;
@@ -454,6 +418,7 @@ sup {
 	line-height: 10px;
 	color:#ff0000; 
 	max-width: 400px;
+	margin-left: 400px;
 	}
 	
 }
