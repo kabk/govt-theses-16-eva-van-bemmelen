@@ -254,6 +254,20 @@ a:active {
 /*	cursor: help; /* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 }
 
+.vraag1{
+	font-size:28px;
+	line-height:32px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+	margin-bottom: -13px;
+	margin-top: 10px;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0pt;
+}
+
 .antwoord{
 	display: none;
 	font-size:18px;
@@ -315,6 +329,24 @@ a:active {
 	text-rendering: optimizeLegibility;
 }
 
+.antwoord4{
+	font-size:18px;
+	line-height:20px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0pt;
+	color: #000;
+	max-width: 650px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 27px;
+	text-indent: 3em;
+	font-variant-ligatures: normal;
+	text-rendering: optimizeLegibility;
+}
+
 .footnote {
 	text-indent: 0em;
     text-align: left;
@@ -359,20 +391,41 @@ sup {
 	text-transform: none;
 	color: #000;
 	background-color: #ffffff;
-	margin-bottom: 400px;
 	margin-top: -10px;
 	width: 1200px;	
 	margin-left: -320px;
 }
+
+.colofon-print{
+	display: none;
+	margin-top: 20px;
+    text-align: left;
+    font-family: 'courier new';
+    font-weight: normal;
+    font-size: 12px;
+	line-height: 12px;
+	color:#0500ff; 
+	max-width: 500px;
+}
+
+
+
 
 
 @media print { 
 	.index-print{
 		display: inherit;	
 	}
+	.colofon-print{
+		display: inherit;	
+	}
 	
 	ul{
     list-style-type: none;
+	}
+	
+	footer {
+		page-break-after: always;
 	}
 	
 	#about {
@@ -389,12 +442,16 @@ sup {
 		display: none;
 	}
 	
+	.antwoord4 {
+		display: none;
+	}
+	
 	body{
 	margin-left: 300px;
 	width: 1200px;
 	}
 	
-	.vraag{
+	.vraag1{
 	display: none;
 	}
 	
@@ -405,7 +462,7 @@ sup {
     font-weight: normal;
     font-size: 8px;
 	line-height: 10px;
-	color:#ff0000; 
+	color: #0500ff; 
 	max-width: 400px;
 	}
 	
@@ -416,7 +473,7 @@ sup {
     font-weight: normal;
     font-size: 8px;
 	line-height: 10px;
-	color:#ff0000; 
+	color: #0500ff; 
 	max-width: 400px;
 	margin-left: 400px;
 	}
