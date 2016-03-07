@@ -215,7 +215,7 @@ a:active {
 }
 
 #footer > a:before {
-	content: "A"
+	content: "?"
 }
 
 #footer.main > a {
